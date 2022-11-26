@@ -256,12 +256,17 @@ p {
 
 /* Portfolio */
 
+.filter.list {
+    margin-bottom: 50px;
+}
+
 .portfolio-subtitle {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin-bottom: 4px;
 }
 
 .portfolio-list .text {
