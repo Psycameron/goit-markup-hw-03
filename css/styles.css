@@ -50,7 +50,9 @@ p {
 .container {
     margin-right: auto;
     margin-left: auto;
-    width: 1170px;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
     outline: 2px solid orange;
 }
 
@@ -71,6 +73,7 @@ p {
 
 .footer-logo {
     color: var(--wtite-color);
+    letter-spacing: 0.03em;
 }
 
 /* Site nav */
@@ -221,6 +224,13 @@ p {
 
 .page-footer {
     background-color: var(--primary-bgc);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.page-footer .logo {
+    display: block;
+    margin-bottom: 20px;
 }
 
 .location-footer {
