@@ -203,11 +203,11 @@ p {
 
 .feature-list {
   display: flex;
+  gap: 30px;
 }
 
 .feature-list .item {
   max-width: 270px;
-  margin-left: 30px;
 }
 
 .feature-list .item:first-child {
@@ -246,12 +246,14 @@ p {
 }
 
 .team-list .item {
-  padding-bottom: 30px;
-
   background-color: var(--wtite-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+
+.team-descr {
+  padding: 30px 0;
 }
 
 .team-subtitle {
@@ -359,7 +361,12 @@ p {
 
 .contact-footer:hover,
 .contact-footer:focus {
-  color: var(--secondary-bgc);
+  color: var(--accent-text-color);
+}
+
+.location-footer:hover,
+location-footer:focus {
+  color: var(--accent-text-color);
 }
 
 /* Portfolio-page */
